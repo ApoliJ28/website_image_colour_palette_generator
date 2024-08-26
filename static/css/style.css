@@ -1,0 +1,67 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+.form-container {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: auto;
+}
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-container input[type="file"] {
+    flex-grow: 1;
+}
+.form-container button {
+    align-self: center;
+    width: 100%;
+}
+.image-preview {
+    max-width: 100%;
+    max-height: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-list-container {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 30px auto 0;
+}
+
+.color-list-container .card-title {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+.list-group-item .color-swatch {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
